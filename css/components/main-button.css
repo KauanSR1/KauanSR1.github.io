@@ -1,0 +1,29 @@
+.main-button {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 18px 20px;
+    margin-right: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #AF9AEA;
+    box-shadow: 5px 5px 1px #2c2929;
+    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
+}
+
+.main-button:hover {
+    opacity: 0.6;
+    transform: scale(1.04);
+    background-color: #8d7db3;
+
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover{
+    transform: scale(1.02);
+}

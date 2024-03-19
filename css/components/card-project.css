@@ -1,0 +1,32 @@
+.card-project {
+    width: 237px;
+    height: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    box-shadow: 10px 10px 0 #544272;
+    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
+
+}
+
+.card-project.-blue {
+    background-color: #4C5B84;
+}
+
+.card-project:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.card-project-tl {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background-color: #242424;
+
+
+}

@@ -1,0 +1,16 @@
+.main-title {
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 40px;
+    color: #AF9AEA;
+    text-shadow: 3px 4px 0 #000;
+}
+
+
+.main-title.-second {
+    font-family: 'Lato' , sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+    text-shadow: none;
+    color: #ffffff;
+}
+
